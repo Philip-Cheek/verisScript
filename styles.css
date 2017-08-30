@@ -1,0 +1,53 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	padding:0;
+	margin:0;
+}  
+
+h1{
+	text-align: center;
+	margin:.5em;
+}
+.asc, .desc{
+	background: rgba(129, 207, 224,.8);
+}
+table {
+	font-size:.85em;
+	border:5px solid rgba(129, 207, 224,.5);
+	border-collapse:collapse;
+	margin:0 auto;
+}
+
+td{
+	max-width: 15em;
+	padding:.3em;
+}
+
+tbody tr:nth-child(odd){
+	background:rgba(129, 207, 224,.2);
+}
+
+
+th{
+	background:rgba(129, 207, 224,.5);
+	padding:1em;
+}
+
+th:hover, button:hover{
+	cursor:pointer;
+}
+
+th.non:hover{
+	cursor:initial;
+}
+
+#nav{
+	margin:0 auto;
+	margin-top:.5em;
+	margin-bottom:2em;
+	width:12em;
+}
+
+#nav button{
+	padding:.8em;
+}
